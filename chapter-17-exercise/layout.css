@@ -4,12 +4,14 @@ header,nav,article,section,footer,figure,figcaption{
 
 body {
     background-image: url(images/dark-wood.jpg);
+    background-color: white;
 }
 
 .wrapper {
     width: 940px;
     margin: 20px auto 20px auto;
     border: 2px solid #000000;
+    background-color: white;
 }
 
 header {
@@ -43,3 +45,24 @@ nav ul li {
 nav li a:hover, nav li a.current {
     color: #000000;
 }
+section.crouse {
+    width: 659px;
+    float: left;
+}
+article {
+    clear: both;
+    overflow: auto;
+    width: 100%;
+}
+article figure {
+    float: left;
+    width: 290px;
+    height: 220px;
+    padding: 5px;
+    margin: 20px;
+    border: 1px solid #000000;
+}
+/*aside {*/
+    /*width: 230px;*/
+    /*float: left;*/
+/*}*/
