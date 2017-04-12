@@ -25,13 +25,21 @@ h1 {
 nav {
     height: 30px;
     margin: 0px;
-    background-color: darkgray;
+    background-color: #aeaca8;
  }
 nav ul {
     margin: 0px;
     padding: 5px 0px 5px 30px;
 }
 nav a {
-    color: aliceblue;
+    color: #ffffff;
     text-decoration: none;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav li a:hover, nav li a.current {
+    color: #000000;
 }
