@@ -1,0 +1,41 @@
+body {
+    background-image: url("images/backdrop.gif");
+    font-family: Georgia,Times,serif;
+    margin: 0;
+    text-align: center;
+}
+
+.wrapper {
+    width: 740px;
+    margin: 20px auto 20px auto;
+    /*border: 2px solid #eeeeee;*/
+}
+header {
+    margin: 20px auto 20px auto;
+}
+
+article {
+    width: 220px;
+    height: 198px;
+    margin: 10px;
+    background-image: url("images/shadow.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    float: left;
+}
+article figure {
+    width: 202px;
+    height: 170px;
+    background-color: #e7e3d8;
+    margin: 0px;
+    padding: 9px;
+}
+article figure img {
+    border: 1px solid #d6d6d6;
+}
+article figure figcaption  {
+    text-align: left;
+    background-image: url("images/icon.png");
+    background-repeat: no-repeat;
+    padding-left:20px;
+}
