@@ -65,12 +65,27 @@
         </table>
 
     </section>
-        <form>
+        <form action="http://www.example.com/form.php" method="get">
             <fieldset>
                 <legend>Register your interest</legend>
-                <label>Your name:</label>
+                <label class="title" for="name">Your name:</label>
+                <input type="text" name="name"><br>
+                <label class="title" for="email">Your email:</label>
+                <input type="text" name="email"><br>
+
+                <label class="title" for="location">Your closest center:</label>
+                <select>
+                    <option value="GZ">guangzhou</option>
+                    <option value="SZ">shenzhen</option>
+                    <option value="BJ">beijing</option>
+                </select><br>
+
+                <span class="title">Are you a member?</span>
+                <label><input type="radio" name="member" value="yes">yes</label>
+                <label><input type="radio" name="member" value="no">no</label>
 
             </fieldset>
+            <div class="submit"><input type="submit" value="Register"></div>
         </form>
 
     <section>
