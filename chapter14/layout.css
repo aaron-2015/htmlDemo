@@ -1,0 +1,65 @@
+body {
+    font-family: Georgia,Times,Serif;
+    font-size: 90%;
+    font-weight: normal;
+}
+li {
+    list-style-image: url("images/icon-plus.png");
+}
+table {
+    width: 600px;
+    border-spacing: 0px;
+}
+tbody tr:first-child {
+    background-color: #de6581;
+}
+.head th:first-child {
+    border-top-left-radius: 5px;
+    /*border-top-right-radius: 5px;*/
+}
+.head th:last-child {
+    /*border-top-left-radius: 5px;*/
+    border-top-right-radius: 5px;
+}
+th,td {
+    padding: 5px 30px 5px 10px;
+    border: 1px solid black;
+}
+tr.even td, tr.even th {
+    background-color: #6af53d;}
+th {
+    text-align: left;
+}
+tr.head th {
+    text-align: center;
+}
+
+fieldset {
+    width: 500px;
+}
+.submit {
+    width: 500px;
+    text-align: right;
+    margin-top: 10px;
+}
+input[type="text"] {
+    width: 120px;
+    border: 1px solid #d6d6d6;
+    padding: 2px;
+    outline: none;}
+input[type="text"]:focus,
+input[type="text"]:hover {
+    background-color: #d0e2f0;
+    border: 1px solid #999999;}
+input[type="submit"] {
+    border: 1px solid #006633;
+    background-color: #009966;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;}
+input[type="submit"]:hover {
+    border: 1px solid #006633;
+    background-color: #00CC33;
+    color: #ffffff;
+    cursor: pointer;}
