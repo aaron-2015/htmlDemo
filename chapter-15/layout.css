@@ -1,3 +1,107 @@
+header,footer,section,article {
+    display: block;
+}
+body {
+    background-image: url("images/bg.jpg");
+    margin: 0px auto 0px auto;
+    text-align: center;
+    font-size: 90%;
+    font-family: Georgia,Times,serif;
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0px auto 0px auto;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    left: 0px;
+    padding: 0px 0px 0px 0px;
+    background-image: url("images/bg-header.jpg");
+    position: fixed;
+    z-index: 50;
+}
+.headerWrapper {
+    height: 100px;
+    width: 960px;
+    margin: 0px auto 0px auto;
+    text-align: left;
+}
+.logo {
+    margin: 0px 0px 20px 40px;
+}
+header nav {
+    float: right;
+    padding: 35px 0px 0px 0px;
+}
 header nav ul li,p {
     display: inline;
+    color: white;
 }
+
+a {
+    color: #b5c1ad;
+    text-decoration: none;
+    font-weight: lighter;
+}
+a:hover {
+    color: white;
+}
+section.middle {
+    background-image: url("images/bg-triangle.png");
+    background-repeat: no-repeat;
+    background-position: 6px 0px;
+    padding-bottom: 100px;
+}
+.triangles {
+    margin: 142px 130px 0px 0px;
+
+}
+.main-story {
+    position: absolute;
+    width: 240px;
+    top: 150px;
+    right: 350px;
+}
+.more_title {
+    padding: 20px;
+    font-size: x-large;
+    width: 960px;
+    float: left;
+    text-align: left;
+    border-top: 1px solid white;
+}
+.more article {
+    float: left;
+    width: 200px;
+    margin: 0px 20px 0px 20px;
+}
+.more article p {
+    text-align: left;
+    display: block;
+    border-bottom: 1px solid #807c72;
+    padding: 5px 0px 15px 0px;
+}
+
+.more article p:last-child {
+    border-bottom: none;
+}
+
+footer {
+    background-image: url("images/bg-header.jpg");
+    clear: both;
+    padding: 10px 0px 10px 0px;
+}
+footer p {
+    display: inline;
+    font-size: small;
+    color: #807c72;
+}
+
+footer p a {
+    font-size: small;
+    color: #807c72;
+}
+
